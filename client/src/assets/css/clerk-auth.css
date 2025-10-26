@@ -1,0 +1,197 @@
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  background-image: radial-gradient(
+      at 0% 0%,
+      rgba(32, 32, 32, 0.6) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 100%, rgba(45, 45, 45, 0.4) 0px, transparent 50%);
+}
+
+.auth-container {
+  min-width: 350px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.tab-content {
+  width: 100%;
+  margin-top: 24px;
+}
+
+/* Clerk Component Styling */
+
+/* Card styling */
+.cl-card {
+  background-color: rgba(25, 25, 25, 0.8) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* Header styling */
+.cl-headerTitle {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  margin-bottom: 8px !important;
+}
+
+.cl-headerSubtitle {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 15px !important;
+  margin-bottom: 24px !important;
+}
+
+/* Input fields */
+.cl-formFieldInput {
+  background-color: rgba(35, 35, 35, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 6px !important;
+  color: white !important;
+  padding: 14px 16px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.cl-formFieldInput:focus {
+  border-color: rgba(100, 100, 100, 0.6) !important;
+  box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.2) !important;
+}
+
+.cl-formFieldInput:hover {
+  border-color: rgba(150, 150, 150, 0.4) !important;
+}
+
+.cl-formFieldLabel {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  margin-bottom: 6px !important;
+}
+
+/* Button styling */
+.cl-formButtonPrimary {
+  background: linear-gradient(90deg, #fff 0%, #f4f4f4 100%) !important;
+  color: #222 !important;
+  border-radius: 6px !important;
+  padding: 12px 24px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: none !important;
+  transition: all 0.2s ease !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07) !important;
+}
+
+.cl-formButtonPrimary:hover {
+  background: linear-gradient(90deg, #f4f4f4 0%, #eaeaea 100%) !important;
+  color: #111 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12) !important;
+  border-color: #cccccc !important;
+}
+
+/* Social buttons */
+.cl-socialButtonsBlockButton {
+  background-color: rgba(40, 40, 40, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+}
+
+.cl-socialButtonsBlockButton:hover {
+  background-color: rgba(50, 50, 50, 0.9) !important;
+  transform: translateY(-2px) !important;
+}
+
+.cl-socialButtonsBlockButtonText {
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Divider */
+.cl-dividerLine {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.cl-dividerText {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 14px !important;
+}
+
+/* Footer */
+.cl-footer {
+  display: none;
+}
+
+.custom-footer {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.custom-footer-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-footer-link {
+  color: #aaaaaa;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.2s;
+}
+
+.custom-footer-link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: underline;
+}
+
+/* Dashboard Navigation */
+.dashboard-nav {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.dashboard-nav a {
+  color: #e0e0e0;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 24px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dashboard-nav a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
