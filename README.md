@@ -123,33 +123,38 @@ This project demonstrates a clean, scalable, and production-ready architecture f
 
 ## Screenshots / Diagrams
 
-> **Add the following screenshots/diagrams:**
->
-> 1. **Login/Register Screen** – Show Clerk authentication UI.
-> 2. **Dashboard/Main Layout** – Sidebar, navbar, and main content area.
-> 3. **Task/List Management** – Example of creating/editing a task or list.
-> 4. **Profile Page** – User profile management, image upload, and settings.
-> 5. **Admin Dashboard** – Admin controls, user suspension, and danger zone.
-> 6. **Theming** – App in both light and dark mode.
-> 7. **Architecture Diagram** – High-level diagram showing frontend, backend, MongoDB, and API flow.
+### 1. Login/Register Screen
 
-## Future Improvements / TODOs
+<p align="center">
+  <img src="assets/login.png" alt="Login/Register Screen" width="30%">
+</p>
 
-- Add end-to-end and integration tests for critical flows.
-- Implement real-time updates (e.g., with WebSockets).
-- Add support for additional OAuth providers.
-- Enhance accessibility and mobile responsiveness.
-- Expand resource types and sharing options.
-- Add analytics and activity logs for admins.
+### 2. Dashboard/Main Layout
 
----
+<p align="center">
+  <img src="assets/dashboard.png" alt="Dashboard/Main Layout" width="60%">
+</p>
 
-## Recommendations for Showcasing
+### 3. Task/List Management
 
-- **Add Badges:** Use [shields.io](https://shields.io/) for build status, license, code coverage, dependencies, and PRs.
-- **Highlight Code Quality:** Mention TypeScript, Zod validation, and error boundaries.
-- **Showcase UI/UX:** Include polished screenshots and a short demo video/gif.
-- **Document API:** Link to or embed API docs (e.g., Swagger UI).
-- **Emphasize Extensibility:** Note the feature-first modular structure and ease of adding new domains.
-- **Include Contribution Guidelines:** Add a section for contributors if open source.
-- **Add a Live Demo Link:** If deployed, provide a link to try the app.
+<p align="center">
+  <img src="assets/todos.png" alt="Task/List Management" width="60%">
+</p>
+
+### 4. Profile Page
+
+<p align="center">
+  <img src="assets/profileEdit.png" alt="Profile Page" width="60%">
+</p>
+
+### 5. Admin Dashboard
+
+<p align="center">
+  <img src="assets/admin.png" alt="Admin Dashboard" width="60%">
+</p>
+
+### 6. Theming
+
+<p align="center">
+  <img src="assets/theming.png" alt="Theming (Light/Dark Mode)" width="60%">
+</p>
